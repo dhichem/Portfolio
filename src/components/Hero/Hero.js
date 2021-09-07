@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle, SectionTitleSecondary } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, RightSection } from './HeroStyles';
 import { Img } from '../Projects/ProjectsStyles';
@@ -12,9 +12,9 @@ const Hero = (props) => (
       <SectionTitle main center>
         Hello, I am hichem.
       </SectionTitle>
-      <SectionText>
-        I'm a Fullstack developper.
-      </SectionText>
+      <SectionTitleSecondary>
+        I'm a Web/mobile developper.
+      </SectionTitleSecondary>
       <Button onClick={() => window.location = "https://"}>Read more about me</Button>
     </LeftSection>
     <RightSection>

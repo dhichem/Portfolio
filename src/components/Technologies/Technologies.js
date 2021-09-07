@@ -8,6 +8,44 @@ const Technologies = () => (
     <SectionDivider />
 
     <SectionTitle main>Technologies</SectionTitle>
+
+    <SectionText>
+      dslkjpzdiejf zk pzo jzo jzeoj oej^zoejêzovj       pojpojzeoj po jzpeojpeoj
+      efpizepfjzpej
+    </SectionText>
+    <List>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            HTML, CSS <br />
+            React.js <br />
+            Vue.js <br />
+            Next.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Node.js <br />
+            Experience with databases <br />
+            symfony <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Mobile development</ListTitle>
+          <ListParagraph>
+            React Native <br />
+            Flutter <br />
+            Android Studio <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
   </Section>
 );
 
