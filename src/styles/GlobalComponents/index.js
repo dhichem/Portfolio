@@ -34,7 +34,7 @@ export const SectionTitle = styled.h2`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  padding: ${(props) => props.main ? '58px 0 6px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
@@ -81,6 +81,7 @@ export const SectionDivider = styled.div`
   width: 90px;
   height: 6px;
   border-radius: 10px;
+  margin-top: 70px;
   background-color: #1f1f1f;
   background: ${(props) => props.colorAlt ?
     '#1f1f1f' :
