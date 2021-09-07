@@ -38,9 +38,16 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: 'Graduated highschool and got my Baccalaureate diploma', },
+  { year: "2017-now", text: 'graduating with a five year engineering degree specialized in Computer Science from ESPRIT at Tunis', },
+  { year: 2019, text: 'joined the BT bank (Banque de tunisie) as an intern', },
+  { year: 2021, text: 'joined Telcotec as an inter', }
+];
+
+
+export const Accoplishments = [
+  { number: 20, text: 'Open Source Projects' },
+  { number: 1000, text: 'Students', },
+  { number: 1900, text: 'Github Followers', },
+  { number: 5000, text: 'Github Stars', }
 ];
