@@ -200,7 +200,7 @@ export const SecondaryBtn = styled.button`
 `
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => alt ? '120px' : '200px'};
+  width: ${({ alt }) => alt ? '120px' : '280px'};
   height: ${({ alt }) => alt ? '32px' : '44px'};
   border-radius: 50px;
   font-size: ${({ alt }) => alt ? '17px' : '17px'};
@@ -219,7 +219,7 @@ export const ButtonBack = styled.div`
   margin-top: 70px;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: ${({ alt }) => alt ? '150px' : '184px'};
+    width: ${({ alt }) => alt ? '150px' : '244px'};
     height: ${({ alt }) => alt ? '52px' : '48px'};
     font-size: ${({ alt }) => alt ? '20px' : '16px'};
     margin-bottom: ${({ alt }) => alt ? '0' : '64px'};
