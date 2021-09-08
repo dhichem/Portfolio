@@ -39,7 +39,7 @@ const Projects = () => (
               {
                 tags.length != 0 ? <>
                   <ExternalLinks href={source}>Source code</ExternalLinks>
-                  <ExternalLinks>Live preview</ExternalLinks> </> :
+                  <ExternalLinks href={visit}>Live preview</ExternalLinks> </> :
                   null
               }
             </UtilityList>
