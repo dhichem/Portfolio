@@ -33,7 +33,7 @@ export const TimeLineData = [
   { year: 2017, text: 'Graduated highschool and got my Baccalaureate diploma', },
   { year: "2017-now", text: 'graduating with a five year engineering degree specialized in Computer Science from ESPRIT at Tunis', },
   { year: 2019, text: 'joined the BT bank (Banque de tunisie) as an intern', },
-  { year: 2021, text: 'joined Telcotec as an inter', }
+  { year: 2021, text: 'joined Telcotec as an intern', }
 ];
 
 
