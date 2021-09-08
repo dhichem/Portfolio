@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/portfolioImage.png',
     tags: ['Next.js', 'JavaScript', 'HTML', 'CSS', 'styled-components'],
     source: 'https://github.com/dhichem/Portfolio',
-    visit: 'https://google.com',
+    visit: 'https://eloquent-murdock-7bb37f.netlify.app',
     id: 1,
   },
   {
