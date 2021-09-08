@@ -10,8 +10,7 @@ const Technologies = () => (
     <SectionTitle main>Technologies</SectionTitle>
 
     <SectionText>
-      dslkjpzdiejf zk pzo jzo jzeoj oej^zoejêzovj       pojpojzeoj po jzpeojpeoj
-      efpizepfjzpej
+      I've worked with a variety of technologies and framework in web/mobile development from frontend to backend.
     </SectionText>
     <List>
       <ListItem>

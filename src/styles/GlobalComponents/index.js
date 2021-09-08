@@ -26,7 +26,7 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-size: ${(props) => props.main ? '55px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
@@ -57,7 +57,7 @@ export const SectionTitle = styled.h2`
 
 export const SectionTitleSecondary = styled.h3`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '35px' : '36px'};
+  font-size: ${(props) => props.main ? '30px' : '30px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;

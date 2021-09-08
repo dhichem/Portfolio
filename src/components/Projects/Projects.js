@@ -20,7 +20,11 @@ const Projects = () => (
             <CardInfo>{description}</CardInfo>
             <div>
               <TitleContent>
-                <HeaderFour>Technologies used</HeaderFour>
+                {
+                  tags.length != 0 ?
+                    <HeaderFour>Technologies used</HeaderFour> :
+                    null
+                }
               </TitleContent>
               <TagList>
                 {
@@ -32,8 +36,12 @@ const Projects = () => (
             </div>
 
             <UtilityList>
-              <ExternalLinks href={source}>Source code</ExternalLinks>
-              <ExternalLinks>Live preview</ExternalLinks>
+              {
+                tags.length != 0 ? <>
+                  <ExternalLinks href={source}>Source code</ExternalLinks>
+                  <ExternalLinks>Live preview</ExternalLinks> </> :
+                  null
+              }
             </UtilityList>
           </BlogCard>
         ))

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-
 import { Section, SectionText, SectionTitle, SectionTitleSecondary } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, RightSection } from './HeroStyles';
 import { Img } from '../Projects/ProjectsStyles';
 import { AiFillCopy } from 'react-icons/ai';
+import Typical from 'react-typical'
 
 
 const Hero = (props) => {
