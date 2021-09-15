@@ -38,8 +38,15 @@ const Projects = () => (
             <UtilityList>
               {
                 tags.length != 0 ? <>
-                  <ExternalLinks href={source}>Source code</ExternalLinks>
-                  <ExternalLinks href={visit}>Live preview</ExternalLinks> </> :
+                  <ExternalLinks href={source}>Source code</ExternalLinks></> :
+                  null
+              }
+              {
+                tags.length != 0 ?
+                  title != "Task tracker" ? <>
+                    <ExternalLinks href={visit}>Live preview</ExternalLinks> </> :
+                    null
+                  :
                   null
               }
             </UtilityList>

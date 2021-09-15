@@ -10,7 +10,9 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Full name</LinkTitle>
-          <LinkItem>hichem dimassi</LinkItem>
+          <a href="/images/vueTracker.png" download>
+            <LinkItem>hichem dimassi</LinkItem>
+          </a>
         </LinkColumn>
 
         <LinkColumn>
@@ -23,6 +25,8 @@ const Footer = () => {
           <LinkItem href="mailto:hichem.dimassi@esprit.tn">hichem.dimassi@esprit.tn</LinkItem>
         </LinkColumn>
       </LinkList>
+
+      <Slogan>I'm open for internship opportunities!</Slogan>
 
       <SocialIconsContainer>
         <CompanyContainer>
@@ -39,7 +43,9 @@ const Footer = () => {
           </SocialIcons>
         </SocialContainer>
 
+
       </SocialIconsContainer>
+
     </FooterWrapper>
   );
 };

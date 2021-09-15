@@ -81,13 +81,32 @@ export const CompanyContainer = styled.div`
 `
 
 
+export const Available = styled.div`
+position: absolute;
+left: 540px;
+margin-top: 105px;
+line-height: 38px;
+text-align: center;
+font-size: medium;
+border-radius: 20px;
+transition-duration: 367ms;
+  height: 4rem;
+  width: 10rem;
+  background-color: #7f7e7a;
+  color: white;
+  /* display: none; */
+
+
+`
+
+
 export const Slogan = styled.p`
-	color: rgba(255, 255, 255, 0.5);
+	color: #1f1f1f;
 	min-width: 280px;
 	letter-spacing: 0.02em;
-	font-size: 18px;
-	line-height: 30px;
-	padding: 1rem;
+	font-size: 20px;
+	/* line-height: 0px;
+	padding: 1rem; */
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
