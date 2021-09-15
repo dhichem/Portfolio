@@ -22,7 +22,7 @@ const Hero = (props) => {
         </SectionTitleSecondary>
         <Button onClick={() => { setEmail("Email Copied!"); setTimeout(() => { setEmail("hichem.dimassi@esprit.tn"); }, 1500); navigator.clipboard.writeText('hichem.dimassi@esprit.tn') }}>{email}<AiFillCopy size="3rem" style={{ marginLeft: "10px" }} /></Button>
         <a href="/images/cv.pdf" download>
-          <Button2 onClick={() => { setaction("Downloading..."); setTimeout(() => { setaction("Download"); }, 2500); }}>{action}<AiFillCopy size="3rem" style={{ marginLeft: "10px" }} /></Button2>
+          <Button2 onClick={() => { setaction("Downloading..."); setTimeout(() => { setaction("Download CV"); }, 2500); }}>{action}<AiFillCopy size="3rem" style={{ marginLeft: "10px" }} /></Button2>
         </a>
       </LeftSection>
       <RightSection>
