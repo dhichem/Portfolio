@@ -37,8 +37,12 @@ const Projects = () => (
 
             <UtilityList>
               {
-                tags.length != 0 ? <>
-                  <ExternalLinks href={source}>Source code</ExternalLinks></> :
+                tags.length != 0 ?
+                  title != "Linkedin clone" ?
+                    <>
+                      <ExternalLinks href={source}>Source code</ExternalLinks>
+                    </> :
+                    null :
                   null
               }
               {

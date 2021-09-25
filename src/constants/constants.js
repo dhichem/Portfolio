@@ -10,12 +10,21 @@ export const projects = [
   },
   {
     title: 'Portfolio',
-    description: "my first ever portfolio built using Next.js.\nAlso I used styled-components to create simple and reusable CSS components throughout the application",
+    description: `my first ever portfolio built using Next.js. Also I used styled-components to create simple and reusable CSS components throughout the application`,
     image: '/images/portfolioImage.png',
     tags: ['Next.js', 'JavaScript', 'HTML', 'CSS', 'styled-components'],
     source: 'https://github.com/dhichem/Portfolio',
     visit: 'https://eloquent-murdock-7bb37f.netlify.app',
     id: 1,
+  },
+  {
+    title: 'Linkedin clone',
+    description: `In this project I have tried to make a Linkedin lookalike website in React connected to a firebase database. In it I used React-redux, firebase, styled-components and many other (Also the interface is mobile compatible). The hosting was done in Firebase`,
+    image: '/images/linkedin-image.png',
+    tags: ['React.js', 'styled-components', 'firebase', 'React-redux', 'Redux'],
+    source: '',
+    visit: 'https://linkedin-website-b7bd8.web.app',
+    id: 2,
   },
   {
     title: 'More to come soon!',
@@ -24,7 +33,7 @@ export const projects = [
     tags: [],
     source: '',
     visit: '',
-    id: 2,
+    id: 3,
   },
 
 ];
