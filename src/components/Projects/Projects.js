@@ -4,13 +4,14 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, HeaderFo
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
+
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {
-        projects.map(({ title, description, image, tags, source, visit, id }) => (
+        projects.map(({ title, description, image, tags, source, visit, id, type }) => (
           <BlogCard key={id}>
             <Img src={image} />
             <TitleContent>
@@ -37,21 +38,22 @@ const Projects = () => (
 
             <UtilityList>
               {
-                tags.length != 0 ?
-                  title != "Linkedin clone" ?
-                    <>
-                      <ExternalLinks href={source}>Source code</ExternalLinks>
-                    </> :
-                    null :
-                  null
-              }
-              {
-                tags.length != 0 ?
-                  title != "Task tracker" ? <>
-                    <ExternalLinks href={visit}>Live preview</ExternalLinks> </> :
-                    null
-                  :
-                  null
+                type === "view&code" ? <>
+                  <ExternalLinks href={source} target="_blank" rel="noreferrer noopener">Source code</ExternalLinks>
+                  <ExternalLinks href={visit} target="_blank" rel="noreferrer noopener">Live preview</ExternalLinks> </>
+
+                  : type === "noview" ?
+                    <ExternalLinks href={source} target="_blank" rel="noreferrer noopener">Source code</ExternalLinks>
+
+                    : type === "nocode" ?
+                      <ExternalLinks href={visit} target="_blank" rel="noreferrer noopener">Live preview</ExternalLinks>
+
+                      : type === "code&video" ? <>
+                        <ExternalLinks href={source} target="_blank" rel="noreferrer noopener">Source code</ExternalLinks>
+                        <ExternalLinks href={visit} target="_blank" rel="noreferrer noopener">check out video</ExternalLinks> </>
+
+                        :
+                        null
               }
             </UtilityList>
           </BlogCard>

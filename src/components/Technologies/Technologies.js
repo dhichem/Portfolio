@@ -18,6 +18,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             HTML, CSS <br />
+            JavaScript <br />
             React.js <br />
             Vue.js <br />
             Next.js
