@@ -5,19 +5,20 @@ import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
+  const date = new Date();
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Full name</LinkTitle>
-          <a href="/images/vueTracker.png" download>
+          <a>
             <LinkItem>hichem dimassi</LinkItem>
           </a>
         </LinkColumn>
 
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+216 20 49 49 38">+216 20 49 49 38</LinkItem>
+          <LinkItem href="tel:+21620494938">+216 20 49 49 38</LinkItem>
         </LinkColumn>
 
         <LinkColumn>
@@ -26,10 +27,9 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
 
-      <Slogan>I'm open for internship opportunities!</Slogan>
-
       <SocialIconsContainer>
         <CompanyContainer>
+          © {date.getFullYear()} Hichem Dimassi
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/dhichem">
@@ -38,7 +38,7 @@ const Footer = () => {
           <SocialIcons href="https://linkedin.com/in/hichem-dimassi-b86922186">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.codewars.com/users/dhichem">
+          <SocialIcons href="https://leetcode.com/u/Gurgling_Falcon/">
             <AiFillCodepenCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>
