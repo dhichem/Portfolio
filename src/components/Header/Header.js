@@ -41,7 +41,7 @@ const Header = () => (
       <SocialIcons href="https://linkedin.com/in/hichem-dimassi-b86922186">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.codewars.com/users/dhichem">
+      <SocialIcons href="https://leetcode.com/u/Gurgling_Falcon/">
         <AiFillCodepenCircle size="3rem" />
       </SocialIcons>
     </Div3>

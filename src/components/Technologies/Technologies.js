@@ -21,7 +21,8 @@ const Technologies = () => (
             JavaScript <br />
             React.js <br />
             Vue.js <br />
-            Next.js
+            Next.js <br />
+            Nuxt.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,6 +33,8 @@ const Technologies = () => (
             Node.js <br />
             Experience with databases <br />
             symfony <br />
+            Laravel <br />
+            Spring 
           </ListParagraph>
         </ListContainer>
       </ListItem>

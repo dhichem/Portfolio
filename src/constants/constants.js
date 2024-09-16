@@ -53,16 +53,12 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Graduated highschool and got my Baccalaureate diploma', },
-  { year: "2017-now", text: 'graduating with a five year engineering degree specialized in Software Engineering from ESPRIT at Tunis', },
-  { year: 2019, text: 'joined the BT bank (Banque de tunisie) as an intern', },
-  { year: 2021, text: 'joined Telcotec as a Mobile Engineering intern', }
+  { year: "Sep 2017 - Oct 2022", text: 'graduating with a five year engineering degree specialized in Software Engineering from ESPRIT at Tunis', },
+  { year: 'Jun 2019 - Jul 2019', text: 'joined the BT bank (Banque de tunisie) as an intern', },
+  { year: 'Jun 2021 - Jul 2021', text: 'joined Telcotec as a Mobile Engineering intern', },
+  { year: 'Jan 2022 - Aug 2024', text: 'joined Liberrex as a FullStack developer, creating new applications, improving the code base and maintaining over 7 applications ranging from Frontend to Backend', }
 ];
 
 
 export const Accoplishments = [
-  { number: 20, text: 'Open Source Projects' },
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
 ];
